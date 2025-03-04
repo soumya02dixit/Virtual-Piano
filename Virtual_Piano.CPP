@@ -1,10 +1,4 @@
 
-/* GROUP NO.12
- ADITI AGARWAL 00901032014
- AISHWARYA     03501032014
- PAYEL GANGULY 03701032014
-
-*/
 
 /*
 				VIRTUAL PIANO
@@ -59,7 +53,7 @@ void showbar(int t)
  for(int q=0;q<=t;t++)
  {
 	gotoxy(3+q,4);
-	cprintf("Û");
+	cprintf("Ã›");
  }
 }
 
@@ -160,19 +154,19 @@ void pianokey(int x,int y) /* Piano key display settings */
  textbackground(color.MIDKEY);
  textcolor(color.BIGKEY);
  gotoxy(x,y);
- cprintf("ÛÛÛ  ÛÛÛ");
+ cprintf("Ã›Ã›Ã›  Ã›Ã›Ã›");
  gotoxy(x,y+1);
- cprintf("ÛÛÛ  ÛÛÛ");
+ cprintf("Ã›Ã›Ã›  Ã›Ã›Ã›");
  gotoxy(x,y+2);
- cprintf("ÛÛÛ  ÛÛÛ");
+ cprintf("Ã›Ã›Ã›  Ã›Ã›Ã›");
  gotoxy(x,y+3);
- cprintf("ÛÛÛÛÞÛÛÛ");
+ cprintf("Ã›Ã›Ã›Ã›ÃžÃ›Ã›Ã›");
  gotoxy(x,y+4);
- cprintf("ÛÛÛÛÞÛÛÛ");
+ cprintf("Ã›Ã›Ã›Ã›ÃžÃ›Ã›Ã›");
  gotoxy(x,y+5);
- cprintf("ÛÛÛÛÞÛÛÛ");
+ cprintf("Ã›Ã›Ã›Ã›ÃžÃ›Ã›Ã›");
  gotoxy(x,y+6);
- cprintf("ÛÛÛÛÞÛÛÛ");
+ cprintf("Ã›Ã›Ã›Ã›ÃžÃ›Ã›Ã›");
  gotoxy(x,y);
 }
 
@@ -199,7 +193,7 @@ void BOX(int c,int r,int c1,int r1,int col)
 	for(j=c;j<=c1;j++)
 	{
 		gotoxy(j,i);
-		cprintf("Û");
+		cprintf("Ã›");
 	}
  }
 }
